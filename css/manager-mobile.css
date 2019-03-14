@@ -1,0 +1,177 @@
+/*Tamanho padrão para tablets*/
+@media only screen and (max-width: 768px) {
+	.header-black ul {
+		display: none;
+	}
+}
+/*Tamanho padrão para smartphones*/
+@media only screen and (max-width: 480px) {
+	#menu{
+		display: none;
+	}
+
+	#btn-bars, #btn-search {
+		color: #fff;
+		font-size: 22px;
+		position: absolute;
+		top: 4px;
+		background: none;
+		border: none;
+		display: block;
+	}
+	#btn-bars {
+		left: 4px;
+	}
+	#btn-search {
+		right: 4px;
+	}
+
+	#info h1 {
+		top: 300px;
+		text-align:center;
+		font-size: 50px;
+		text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+		font-family: 'OpenSans-Light';
+	}
+
+	#banner {
+		height: 100%;
+		margin-top:50%;
+		background-size: cover;
+		background-position: 0;
+		text-align: center;
+	}
+	#banner h1, .email-text {
+		top: 50%;
+		font-size: 40px;
+		margin-left: 0;
+		color: #000;
+	}
+	#banner h1 small {
+		font-size: 22px;
+		color: #000;
+	}
+
+	footer {
+		margin-top: 100%;
+	}
+	.copyright-mobile p {
+		font-size: 10px;
+		line-height: 0;
+	}
+	.copyright-mobile .pull-left {
+		float: inherit!important;
+	}
+	footer .row p {
+		text-align: center;
+		line-height: 20px;
+	}
+
+	footer .text-laranja {
+		margin-right: 10px;
+	}
+
+	.emails {
+		background-color: rgba(255, 140, 64, .8);
+		width: 100%;
+		height: 50px;
+		margin-bottom: 50px;
+		position: relative;
+		color: #fff;
+		text-align: center;
+	}
+
+	.text-mobile{
+		font-size: 25px;
+	}
+
+	.text-mobile-sul{
+		font-size: 20px;
+	}
+
+	header .header-black {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 9;
+	}
+
+	header #menu-mobile {
+		position: fixed;
+		top: 40px;
+		background-color: #fff;
+		width: 80%;
+		height: 100%;
+		left:-80%;
+		transition: 1s;
+		z-index: 5;
+	}
+	header.open-menu #menu-mobile {
+		left: 0;
+	}
+	header.open-menu #menu-mobile-mask {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: rgba(0,0,0,.5);
+		z-index: 4;
+	}
+	header.open-menu #logotipo {
+		position: fixed;
+		top: 50px;
+		height: 76px;
+		left: calc(40% - 33px);
+	}
+	header.open-menu #menu-mobile ul {
+		margin: 20px;
+		margin-top: 100px;
+	}
+	header.open-menu #menu-mobile li {
+		text-align: center;
+		border-top: #CCC 1px solid;
+	}
+	header.open-menu #menu-mobile li:last-child {
+		border-bottom: #CCC 1px solid;
+	}
+	header.open-menu #menu-mobile li a {
+		color: #ff8c04;
+		font-family: 'OpenSans';
+		font-weight: bold;
+		font-size: 16px;
+		padding: 18px;
+		display: block;
+	}
+	header.open-menu .bar-close {
+		position: absolute;
+		bottom: 40px;
+		background-color: #ff8c04;
+		height: 40px;
+		width: 100%;
+	}
+	header.open-menu .bar-close .btn-close {
+		background:none;
+		border: none;
+		color: #fff;
+		font-size: 22px;
+	}
+	header #input-search-mobile {
+		transition: 1s;
+		top: -40px;
+		position: fixed;
+		width: 70%;
+		left: 15%;
+		background-color: #000;
+		border: none;
+		height: 40px;
+		color: #fff;
+		outline: 0;
+	}
+	header.open-search #input-search-mobile {
+		top: 0;
+	}
+	header.open-search #logotipo {
+		z-index: 9;
+	}
+}
