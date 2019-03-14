@@ -1,16 +1,16 @@
 <?php include_once("header.php");?>
-<title>Gerenciador de Usuários - Emails</title>
+<title>Gerenciador de Usuários - Websites</title>
 
 <section ng-controller="usuarios-controller">
 	<div id="info">
 
-		<h1>Emails de todos os usuários</h1>
+		<h1>Websites de todos os usuários</h1>
 
 	</div>	
 	<div class="container">
 		<div class="row-fluid">
 			<div class="emails" ng-repeat="usuario in usuarios">
-				<h2 class="text-mobile">{{usuario.email}}</h2>
+				<h2 class="text-mobile">{{usuario.website}}</h2>
 			</div>
 		</div>
 	</div>

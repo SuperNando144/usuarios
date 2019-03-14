@@ -23,7 +23,7 @@
 
 			<ul class="list-unstyled">
 				<li><a href="home">Home</a></li>
-				<li><a href="emails">Emails</a></li>
+				<li><a href="websites">Websites</a></li>
 				<li><a href="samantha">Samantha</a></li>
 				<li><a href="sul">Hemisfério Sul</a></li>
 			</ul>
@@ -49,7 +49,7 @@
 				<nav id="menu" class="span12 pagination-centered">
 					<ul>
 						<li><a href="home">Home</a></li>
-						<li><a href="emails">Emails</a></li>
+						<li><a href="websites">Websites</a></li>
 						<li><a href="samantha">Samantha</a></li>
 						<li><a href="sul">Hemisfério Sul</a></li>
 					</ul>

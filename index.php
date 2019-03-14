@@ -25,10 +25,10 @@ $app->get(
 );
 
 $app->get(
-    '/emails',
+    '/websites',
     function () {
 
-        require_once("view/emails.php");
+        require_once("view/websites.php");
         
     }
 );
